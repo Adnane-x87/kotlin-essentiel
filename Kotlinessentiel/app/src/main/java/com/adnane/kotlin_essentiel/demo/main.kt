@@ -21,8 +21,12 @@ fun demoValVar() {
     val appName = "HelloCounter"
     var count = 0
     val i = 42
+<<<<<<< HEAD
     val name = "Adnane"
 
+=======
+    val name = "fadna"
+>>>>>>> d99ef8fa87223333310f115453512d2a698d691c
     val msg = "Bonjour, $name ! (#$i → ${i.toString(16)})"
 
     println("App: $appName, count initial=$count")
