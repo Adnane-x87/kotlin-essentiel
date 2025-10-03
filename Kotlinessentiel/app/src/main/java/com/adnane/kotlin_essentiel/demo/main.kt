@@ -1,4 +1,3 @@
-package com.adnane.kotlin_essentiel.demo
 
 fun levelLabel(count: Int): String = when {
     count < 0 -> "Invalide"
@@ -21,7 +20,8 @@ fun demoValVar() {
     val appName = "HelloCounter"
     var count = 0
     val i = 42
-    val name = "fadna"
+    val name = "Adnane"
+
     val msg = "Bonjour, $name ! (#$i → ${i.toString(16)})"
 
     println("App: $appName, count initial=$count")
