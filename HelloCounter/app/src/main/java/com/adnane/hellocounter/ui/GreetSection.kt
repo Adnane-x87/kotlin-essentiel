@@ -18,10 +18,7 @@ fun DireBonjourSection(modifier: Modifier = Modifier) {
     var name by rememberSaveable { mutableStateOf("") }
     var greetingName by rememberSaveable { mutableStateOf<String?>(null) }
 
-    Column(
-        modifier = modifier.fillMaxWidth(),
-        verticalArrangement = Arrangement.spacedBy(12.dp)
-    ) {
+    Column(modifier = modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(12.dp)) {
         OutlinedTextField(
             value = name,
             onValueChange = { name = it },
