@@ -71,7 +71,7 @@ fun CompteurSection(modifier: Modifier = Modifier) {
                     .size(48.dp)
                     .semantics { contentDescription = incrementCd }
             ) {
-                Icon(Icons.Filled.Add, contentDescription = null)
+                                                                                                                                                                                                                                                                                                                                                                                                                                    Icon(Icons.Filled.Add, contentDescription = null)
             }
         }
     }
